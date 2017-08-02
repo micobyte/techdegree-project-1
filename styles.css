@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -75,7 +75,9 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-color: #49cbff;
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -99,7 +101,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #49cbff;
 }
 
 ul.skills {
@@ -110,7 +112,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #ed1e7f;
   color: white;
   padding: 5px 10px;
   margin: 2px;
